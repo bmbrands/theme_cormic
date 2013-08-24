@@ -57,8 +57,6 @@ function theme_dockmod_handle_spans() {
     }
   } else {
 
-    return;
-
     var prehasblocks = (regionpre.all('.block').size() > 0);
     if (prehasblocks) {
       regionpre.addClass('span4');
